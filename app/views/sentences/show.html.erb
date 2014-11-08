@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Expression:</strong>
+  <%= @sentence.expression %>
+</p>
+
+<p>
+  <strong>Emojis:</strong>
+  <%= image_tag(@sentence.translated, :width => 600) if @sentence.translated.present? %>
+</p>
+
+<%= link_to 'Edit', edit_sentence_path(@sentence) %> |
+<%= link_to 'Back', sentences_path %>
