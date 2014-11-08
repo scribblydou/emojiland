@@ -11,7 +11,6 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
-gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'carrierwave'
 gem 'sass-rails', '~> 4.0.3'
